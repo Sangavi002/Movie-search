@@ -1,0 +1,79 @@
+#mainscreen {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 30%;
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-top: 100px;
+}
+label {
+    font-size: 30px;
+    font-weight: 800;
+}
+input {
+    padding: 5px 10px;
+    font-size: 15px;
+    width: 80%;
+}
+button {
+    padding: 5px 10px;
+    background: green;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+#container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+.moviecard {
+    height: 420px;
+    padding: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.moviecard img {
+    height: 300px;
+    width: 100%;
+}
+.moviecard h4 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 18px;
+    letter-spacing: .8px;
+}
+.moviecard p {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 15px;
+    font-family: sans-serif;
+    letter-spacing: .5px;
+}
+#container2 {
+    display: block;
+}
+.movieDetail {
+    text-align: center;
+}
+.movieDetail img {
+    height: 330px;
+    width: 30%;
+    margin-top: 25px;
+}
+.movieDetail h4 {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+.movieDetail p {
+    margin-top: 12px;
+    margin-bottom: 0px;
+    font-size: 17px;
+    font-family: sans-serif;
+    letter-spacing: .5px;
+}
+
